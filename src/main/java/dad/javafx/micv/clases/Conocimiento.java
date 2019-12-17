@@ -9,7 +9,6 @@ import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 @XmlType
-@XmlSeeAlso({(Idioma.class)})
 public class Conocimiento {
 private StringProperty denominacion= new SimpleStringProperty();
 private ObjectProperty<Nivel> nivel= new SimpleObjectProperty<Nivel>();
